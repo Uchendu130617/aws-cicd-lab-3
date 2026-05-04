@@ -22,7 +22,7 @@ jobs:
           script: |
             cd /home/ubuntu
             if [ ! -d "app" ]; then
-              git clone https://github.com/uchendu130617/aws-cicd-lab.git app
+              git clone https://github.com/Uchendu130617/aws-cicd-lab.git app
             fi
             cd app
             git pull
